@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="bg-white  flex items-center justify-between text-black border-b-[1px] border-gray-200 w-full">
       {/* Left side (Logo) */}
-      <div className="bg-cover bg-[url('./Assets/bg5.png')] bg-[200%] bg-no-repeat bg-center w-[440px] h-[80px]">
-        <div className="flex items-center space-x-2 text-[40px] ml-10 mt-2" >
+      <div className="bg-cover bg-[url('./Assets/bg5.png')] bg-[200%] bg-no-repeat bg-center w-[400px] h-[80px]">
+        <div className="flex items-center space-x-2 text-[30px] ml-10 mt-3" >
         <span className="font-thin  ">Prop</span>
         <span className="font-bold  ">Trading</span>
         <span className="font-normal ">Labs</span>
@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       
       {/* Center (Nav Items) */}
-      <div className="flex space-x-8 text-[30px]">
+      <div className="flex space-x-8 text-[22px]">
         <a href="#" className="font-bold">ABOUT US</a>
         <a href="#" className="font-bold">CHALLENGES</a>
         <a href="#" className="font-bold">HEDGE FUND</a>

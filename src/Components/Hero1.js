@@ -7,10 +7,10 @@ const Hero1 = () => {
         <div className="bg-[#0d051d] text-white relative">
             {/* Top Text Section */}
             <div className="text-center pt-10 pb-16 relative">
-                <h1 className="text-[64px] font-normal">
+                <h1 className="text-[50px] font-normal">
                     YOUR ROUTE TO A <span className="text-white font-bold">HEDGE FUND</span>
                 </h1>
-                <div className=" absolute bg-purple-600 text-white px-6 py-4 mt-6 mx-auto inline-block rounded-lg top-[150px] right-1/2 transform translate-x-1/2 text-[35px]">
+                <div className=" absolute bg-purple-600 text-white px-6 py-4 mt-6 mx-auto inline-block rounded-lg top-[130px] right-1/2 transform translate-x-1/2 text-[25px]">
                     <p>
                         Your success is our success. We’re committed to helping you reach your full potential.
                     </p>
@@ -22,7 +22,7 @@ const Hero1 = () => {
             
                 <div className="flex w-1/2 pt-[100px] items-center">
                     {/* Left: Image */}
-                    <div className="w-[300px]">
+                    <div className="w-[200px]">
                         <img
                             src={person} // Replace with the actual image path
                             alt="CEO"
@@ -31,10 +31,10 @@ const Hero1 = () => {
                     </div>
                     {/* Right: Text */}
                     <div className=" pl-10 w-[400px]">
-                        <div className="text-[24px] font-normal text-black text-start font-san">
+                        <div className="text-[22px] font-normal text-black text-start font-san">
                             "We're different from other prop firms because we offer a clear path from evaluation to managing assets in an affiliated hedge fund. Your success with us can lead to a career managing millions."
                         </div>
-                        <p className="mt-4 font-semibold text-black text-start text-[20px]">Dr Bill Kolubayev - CEO</p>
+                        <p className="mt-4 font-semibold text-black text-start text-[18px]">Dr Bill Kolubayev - CEO</p>
                     </div>
                 </div>
                 <div className=" w-1/2 flex justify-center item-start">
