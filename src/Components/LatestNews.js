@@ -76,7 +76,7 @@ const LatestNews = () => {
               onClick={() => handleDotClick(index)}
               className={`w-3 h-3 rounded-full ${
                 activeIndex === index ? 'bg-purple-600' : 'bg-gray-300'
-              }`} data-aos="fade-right"
+              }`}
             />
           ))}
         </div>
