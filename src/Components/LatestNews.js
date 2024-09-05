@@ -84,21 +84,21 @@ const LatestNews = () => {
         {/* Slider Section */}
         <div
           ref={sliderRef}
-          className="relative w-full flex overflow-x-scroll snap-x snap-mandatory scroll-smooth hide-scrollbar"
+          className="relative w-full flex overflow-x-scroll snap-x snap-mandatory scroll-smooth hide-scrollbar boxShadow rounded-lg p-4 px-10"
         >
           {slidesData.map((slide) => (
             <div
               key={slide.id}
-              className={`snap-center flex-shrink-0 w-[45%] flex flex-col items-center py-4 ${slide.pxClass || ''} `} data-aos="fade-right"
+              className={`snap-center  flex-shrink-0 w-[45%] flex flex-col items-center py-4 ${slide.pxClass || ''} `} data-aos="fade-right"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
             >
               <img
                 src={slide.imageUrl}
                 alt={slide.title}
-                className="w-[560px] h-[420px] object-cover mb-4"
+                className="w-[500px] h-[320px] object-cover mb-4 rounded-lg"
               />
-              <div className='text-start w-full'>
+              <div className='text-start w-full pl-1'>
               <h3 className="font-bold text-lg text-start">{slide.title}</h3>
               <p className="text-gray-600 text-start">{slide.description}</p>
               <a href="#" className="text-black font-bold border-b-[2px] border-[rgba(163,112,247,1)] mt-2 text-start">

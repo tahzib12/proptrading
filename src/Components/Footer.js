@@ -27,7 +27,7 @@ const Footer = () => {
                                 placeholder="Join our mailing list"
                                 className="bg-transparent flex-grow outline-none px-2"
                             />
-                            <button className="bg-transparent text-white px-6 py-2">Submit</button>
+                            <button className="bg-transparent text-white px-6 py-2 hover:border-b hover:border-white">Submit</button>
                         </div>
                     </div>
                 </div>

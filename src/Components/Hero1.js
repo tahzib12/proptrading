@@ -17,10 +17,10 @@ const Hero1 = () => {
         <div className="bg-[#0d051d] text-white relative">
             {/* Top Text Section */}
             <div className="text-center pt-10 pb-16 relative">
-                <h1 className="text-[50px] font-normal" data-aos="zoom-in">
+                <h1 className="text-[50px] font-normal" data-aos="fade-left">
                     YOUR ROUTE TO A <span className="text-white font-bold">FUND</span>
                 </h1>
-                <div className="absolute bg-purple-600 text-white px-6 py-4 mt-6 mx-auto inline-block rounded-lg top-[130px] left-1/2 transform -translate-x-1/2 text-[25px] transition-transform hover:scale-105 ease-in-out duration-300">
+                <div className="absolute bg-[rgba(22,5,48,1)] text-white px-6 py-4 mt-6 mx-auto inline-block rounded-lg top-[130px] left-1/2 transform -translate-x-1/2 text-[25px] transition-transform hover:scale-105 ease-in-out duration-300">
                     Your success is our success. We’re committed to helping you reach your full potential.
                 </div>
             </div>
@@ -49,7 +49,7 @@ const Hero1 = () => {
                             <span className="font-bold">Trading</span>
                             <span className="font-normal">Labs</span>
                         </div>
-                        <div className="flex text-black gap-1 text-[25px] bg-purple-600 rounded-xl px-4 py-1 justify-center items-center transition-transform transform hover:scale-105 ease-in-out duration-300">
+                        <div className="flex text-white gap-1 text-[25px] bg-[rgba(22,5,48,1)] rounded-xl px-4 py-1 justify-center items-center transition-transform transform hover:scale-105 ease-in-out duration-300">
                             <span className="font-thin">A</span>
                             <span className="font-bold">Prop Firm</span>
                             <span className="font-thin">with progression</span>
