@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       fontFamily: {
         tinos: ['Tinos', 'serif'],
+        anton: ['Anton', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        robotoflex: ['Roboto Flex', 'sans-serif'],
       },
     },
   },
