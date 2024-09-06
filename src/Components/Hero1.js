@@ -20,8 +20,9 @@ const Hero1 = () => {
         YOUR ROUTE TO A <span className="text-white font-bold">HEDGE FUND</span>
     </h1>
     <div className='absolute w-[600px] top-[230px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-    <div className="bg-[rgba(22,5,48,1)] text-white px-6 py-4 mt-6 rounded-lg text-[30px] font-robotoflex w-full" data-aos="zoom-in">
-        <span>Your success is our success.</span> <span>We’re committed to helping you reach your full potential.</span>
+    <div className="bg-[rgba(22,5,48,1)] text-white flex flex-col px-6 py-4 mt-6 rounded-lg text-[30px] font-robotoflex w-full" data-aos="zoom-in">
+        <div>Your success is our success.</div>
+         <div>We’re committed to helping you reach your full potential.</div>
     </div>
     </div>
 </div>
