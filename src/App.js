@@ -6,6 +6,7 @@ import LatestNews from './Components/LatestNews';
 import Navbar from './Components/Navbar';
 import Quotes from './Components/Quotes';
 
+
 function App() {
   return (
     <div className="App">
