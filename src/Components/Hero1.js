@@ -5,21 +5,21 @@ import 'aos/dist/aos.css';
 const Hero1 = () => {
     useEffect(() => {
         AOS.init({
-            duration: 2000, // Animation duration (1000ms = 1s)
-            once: false, // Whether the animation should happen only once
-            easing: 'ease', // Easing function for the animation
+            duration: 2000, 
+            once: false, 
+            easing: 'ease', 
         });
-        AOS.refresh(); // Refresh AOS after initialization
+        AOS.refresh();
     }, []);
 
     return (
-        <div className="bg-[#0d051d] text-white relative">
+        <div className="bg-[#0d051d] text-white relative overflow-x-hidden"> {/* Prevent horizontal scrolling */}
             {/* Top Text Section */}
             <div className="text-center pt-10 pb-16 relative mx-auto">
                 <h1 className="text-[55px] sm:text-[22px] md:text-[30px] font-normal font-roboto" data-aos="fade-left">
                     YOUR ROUTE TO A <span className="text-white font-bold">HEDGE FUND</span>
                 </h1>
-                <div className='absolute sm:max-w-[270px] md:max-w-[370px] w-[600px] top-[230px] sm:top-[150px] md:top-[150px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                <div className='absolute sm:max-w-[270px] md:max-w-[370px] w-full max-w-[600px] top-[140px] sm:top-[90px] md:top-[100px] left-1/2 transform -translate-x-1/2'>
                     <div className="bg-[rgba(22,5,48,1)] text-white flex flex-col px-6 py-4 mt-6 rounded-lg text-[30px] sm:text-[16px]  md:text-[18px] font-robotoflex w-full" data-aos="zoom-in">
                         <div>Your success is our success.</div>
                         <div>We’re committed to helping you reach your full potential.</div>
