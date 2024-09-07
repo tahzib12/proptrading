@@ -4,13 +4,13 @@ import msgLogo from '../Assets/msglogo.png';
 const Footer = () => {
     return (
         <footer className="bg-[rgba(22,5,48,1)] text-white py-12">
-            <div className='w-[90%] mx-auto'>
-                <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-                    <div className="md:w-1/2 text-start">
-                        <h2 className="text-4xl font-bold mb-4">Let’s start working</h2>
-                        <h2 className="text-4xl font-bold mb-4">to build a brighter.</h2>
-                        <h2 className="text-4xl font-bold mb-4">future.</h2>
-                        <p className="mb-4 ">
+            <div className='w-[90%] mx-auto '>
+                <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
+                    <div className="lg:w-1/2 text-start">
+                        <h2 className="text-4xl sm:text-[22px] md:text-[25px] font-bold mb-4 sm:mb-0 md:mb-0">Let’s start working</h2>
+                        <h2 className="text-4xl sm:text-[22px] md:text-[25px] font-bold mb-4 sm:mb-0 md:mb-0">to build a brighter.</h2>
+                        <h2 className="text-4xl sm:text-[22px] md:text-[25px] font-bold mb-4 sm:mb-0 md:mb-0">future.</h2>
+                        <p className="mb-4 sm:text-[12px] md:text-[16px]">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum posuere eget elementum vulputate elementum viverra sapien tellus aenean.
                         </p>
                         <div className="flex space-x-4">
@@ -20,7 +20,7 @@ const Footer = () => {
                             <a href="#" className="hover:text-gray-300">Ln</a>
                         </div>
                     </div>
-                    <div className="md:w-1/3 mt-8 md:mt-0">
+                    <div className="lg:w-1/3 mt-8 lg:mt-0 sm:w-full sm:text-[14px]">
                         <div className="flex border border-gray-500 p-2">
                             <input
                                 type="text"
@@ -31,9 +31,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container  text-center mt-8 flex justify-between">
+                <div className="container  text-center mt-8 flex sm:flex-col justify-between md:mx-auto md:items-center">
                     <span>
-                        <img src={msgLogo} alt="logo" className="inline-block mb-2" />
+                        <img src={msgLogo} alt="logo" className="inline-block mb-2 sm:w-[150px] md:w-[150px]" />
                     </span>
                     <p className="text-sm">Copyright 2021. All rights reserved.</p>
                 </div>

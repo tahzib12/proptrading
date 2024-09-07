@@ -31,6 +31,17 @@ code {
 .boxShadow{
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.boxShadow1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
 .fontWeigth{
   font-weight: 100;
+}
+
+.josefin-slab {
+  font-family: 'Josefin Slab', serif;
+  font-optical-sizing: auto;
+  font-weight: 300; /* Replace with the desired weight */
+  font-style: normal;
 }

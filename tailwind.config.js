@@ -12,6 +12,11 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif'],
         robotoflex: ['Roboto Flex', 'sans-serif'],
       },
+      screens: {
+        'sm': {'max': '600px'}, // Up to 600px
+        'md': {'min': '601px', 'max': '900px'}, // 601px to 900px
+        'lg': {'min': '901px'}, // 901px and above
+      },
     },
   },
   plugins: [],

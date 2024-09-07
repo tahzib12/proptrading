@@ -18,6 +18,8 @@ const slidesData = [
     imageUrl: Image1,
     linkText: 'Browse',
     pxClass: 'px-[20px]',
+    pxClassSm: 'sm:px-0',
+    pxClassMd: 'md:px-0',
   },
   {
     id: 3,
@@ -61,11 +63,11 @@ const LatestNews = () => {
 
   return (
     <div className='w-full'>
-      <div className="w-[80%] px-10 py-10 mx-auto">
+      <div className="w-[80%] px-10 sm:w-[100%] md:w-[100%] py-10 mx-auto">
         <div className='text-start leading-tight mb-10' data-aos="fade-right">
           <div className='text-[16px] font-bold text-[rgba(102,16,242,1)]'>WHAT WE OFFER</div>
-          <div className='font-bold text-[50px] text-black'>Agile focused business</div>
-          <div className='font-bold text-[50px] text-black'>services and more.</div>
+          <div className='font-bold text-[50px] sm:text-[25px] md:text-[30px]  text-black'>Agile focused business</div>
+          <div className='font-bold text-[50px] sm:text-[25px] md:text-[30px] text-black'>services and more.</div>
         </div>
 
         {/* Dots for Pagination */}
@@ -84,19 +86,19 @@ const LatestNews = () => {
         {/* Slider Section */}
         <div
           ref={sliderRef}
-          className="relative w-full flex overflow-x-scroll snap-x snap-mandatory scroll-smooth hide-scrollbar boxShadow rounded-lg p-4 px-10"
+          className="relative w-full flex overflow-x-scroll snap-x snap-mandatory sm:gap-3 md:gap-3 scroll-smooth hide-scrollbar boxShadow rounded-lg p-4 px-10"
         >
           {slidesData.map((slide) => (
             <div
               key={slide.id}
-              className={`snap-center  flex-shrink-0 w-[45%] flex flex-col items-center py-4 ${slide.pxClass || ''} `} data-aos="fade-right"
+              className={`snap-center  flex-shrink-0 w-[45%] sm:w-[100%] md:w-[60%] flex flex-col items-center py-4 ${slide.pxClass || ''} ${slide.pxClassSm || ''}  ${slide.Md || ''}`}  data-aos="fade-right"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
             >
               <img
                 src={slide.imageUrl}
                 alt={slide.title}
-                className="w-[500px] h-[320px] object-cover mb-4 rounded-lg"
+                className="w-[500px] h-[320px] sm:h-[250px] md:h-[250px] md:w-[350px] object-cover mb-4 rounded-lg"
               />
               <div className='text-start w-full pl-1'>
               <h3 className="font-bold text-lg text-start">{slide.title}</h3>
