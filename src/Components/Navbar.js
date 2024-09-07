@@ -29,7 +29,7 @@ const Navbar = () => {
             isMenuOpen
               ? 'flex flex-col items-start boxShadow1 rounded-lg space-y-4 absolute top-[50px] sm:w-[180px] md:w-[200px] right-0 bg-white shadow-lg p-4 z-10'
               : 'hidden lg:flex lg:space-x-10'
-          } text-[25px] font-anton font-normal lg:relative w-2/3 lg:pl-20`}
+          } text-[25px] font-anton font-normal lg:relative w-[60.666667%] lg:pl-20 flex items-center`}
         >
           <a href="/" className="relative group">
             ABOUT US
@@ -50,7 +50,7 @@ const Navbar = () => {
 
           {/* Right side (Button) */}
           <div className="sm:w-full md:w-full lg:right-20 lg:absolute">
-            <button className="bg-transparent border-[2px] flex items-center justify-center border-purple-600 text-purple-600 px-2 py-2 font-bold rounded-full hover:bg-purple-500 hover:text-white transition w-full sm:w-[50%] sm:mx-auto md:w-[45%] md:mx-auto">
+            <button className="bg-transparent flex items-center justify-center text-purple-600 font-bold rounded-full hover:bg-purple-500 hover:text-white transition w-full sm:w-[50%] sm:mx-auto md:w-[45%] md:mx-auto">
               <CgProfile className='text-[30px]'/>
             </button>
           </div>

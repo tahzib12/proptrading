@@ -1,0 +1,10 @@
+#particles {
+    position: relative; /* Ensure the container is positioned correctly */
+  }
+  
+  #particles canvas {
+    z-index: -1; /* Position behind other content */
+    height: 100%;
+    width: 100%;
+    position: absolute; /* Cover the parent container */
+  }

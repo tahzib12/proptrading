@@ -13,8 +13,12 @@ function App() {
      <Navbar />
      <Hero1 />
      <Hero2 />
+     <div className='z-1 bg-white'>
      <LatestNews />
+     </div>
+     <div className='z-1 bg-white'>
      <Quotes />
+     </div>
      <Footer />
     </div>
   );

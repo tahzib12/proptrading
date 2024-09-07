@@ -62,7 +62,7 @@ const LatestNews = () => {
   }, []);
 
   return (
-    <div className='w-full'>
+    <div className='w-full z-100'>
       <div className="w-[80%] px-10 sm:w-[100%] md:w-[100%] py-10 mx-auto">
         <div className='text-start leading-tight mb-10' data-aos="fade-right">
           <div className='text-[16px] font-bold text-[rgba(102,16,242,1)]'>WHAT WE OFFER</div>
